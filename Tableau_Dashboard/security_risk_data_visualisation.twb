@@ -1,0 +1,890 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='security_risk_data (security_risk_data1)' inline='true' name='federated.0kniauz1intu4n18nkkq81b7mg3f' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='security_risk_data1' name='excel-direct.0cljmf51kkkup5158fu9v14c1zyf'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/Kartik/Desktop/DB project/security_risk_data1.xlsm' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0cljmf51kkkup5158fu9v14c1zyf' name='security_risk_data' table='[security_risk_data$]' type='table'>
+          <columns gridOrigin='A1:I51:no:A1:I51:1' header='yes' lost='0' outcome='1' processed='87'>
+            <column datatype='string' name='Finding ID' ordinal='0' />
+            <column datatype='string' name='Security Risk' ordinal='1' />
+            <column datatype='string' name='Risk Level' ordinal='2' />
+            <column datatype='string' name='Department' ordinal='3' />
+            <column datatype='string' name='Status' ordinal='4' />
+            <column datatype='date' name='Due Date' ordinal='5' />
+            <column datatype='string' name='Owner' ordinal='6' />
+            <column datatype='integer' name='Days Overdue' ordinal='7' />
+            <column datatype='string' name='Escalation Required?' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[security_risk_data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I51:no:A1:I51:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>87</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Finding ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Finding ID]</local-name>
+            <parent-name>[security_risk_data]</parent-name>
+            <remote-alias>Finding ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Security Risk</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Security Risk]</local-name>
+            <parent-name>[security_risk_data]</parent-name>
+            <remote-alias>Security Risk</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Risk Level</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Risk Level]</local-name>
+            <parent-name>[security_risk_data]</parent-name>
+            <remote-alias>Risk Level</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Department</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Department]</local-name>
+            <parent-name>[security_risk_data]</parent-name>
+            <remote-alias>Department</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Status]</local-name>
+            <parent-name>[security_risk_data]</parent-name>
+            <remote-alias>Status</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Due Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Due Date]</local-name>
+            <parent-name>[security_risk_data]</parent-name>
+            <remote-alias>Due Date</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Owner</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Owner]</local-name>
+            <parent-name>[security_risk_data]</parent-name>
+            <remote-alias>Owner</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Days Overdue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Days Overdue]</local-name>
+            <parent-name>[security_risk_data]</parent-name>
+            <remote-alias>Days Overdue</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Escalation Required?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Escalation Required?]</local-name>
+            <parent-name>[security_risk_data]</parent-name>
+            <remote-alias>Escalation Required?</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Overdue Category' datatype='string' name='[Calculation_1229201274934607873]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Days Overdue] &gt;= 30 THEN &quot;4-Critical (30+ Days)&quot;&#13;&#10;ELSEIF [Days Overdue] &gt;= 15 THEN &quot;3-High (15-29 Days)&quot;&#13;&#10;ELSEIF [Days Overdue] &gt;= 7 THEN &quot;2-Medium (7-14 Days)&quot;&#13;&#10;ELSEIF [Days Overdue] &gt; 0 THEN &quot;1-Low (1-6 Days)&quot;&#13;&#10;ELSE &quot;0-No Overdue&quot;&#13;&#10;END' />
+      </column>
+      <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[Finding ID]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Risk Level]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Status]' role='dimension' type='nominal' />
+      <column caption='security_risk_data' datatype='table' name='[__tableau_internal_object_id__].[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]' role='measure' type='quantitative' />
+      <column-instance column='[Risk Level]' derivation='None' name='[none:Risk Level:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Status]' derivation='None' name='[none:Status:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Kartik/AppData/Local/Temp/TableauTemp/#TableauTemp_194dwlg13vyvdr17ldh8r0qg929b.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='02/27/2025 01:14:10 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Finding ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Finding ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Finding ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>security_risk_data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>50</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Security Risk</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Security Risk]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Security Risk</remote-alias>
+              <ordinal>1</ordinal>
+              <family>security_risk_data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Risk Level</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Risk Level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Risk Level</remote-alias>
+              <ordinal>2</ordinal>
+              <family>security_risk_data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Department</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Department]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Department</remote-alias>
+              <ordinal>3</ordinal>
+              <family>security_risk_data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Status</remote-alias>
+              <ordinal>4</ordinal>
+              <family>security_risk_data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Due Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Due Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Due Date</remote-alias>
+              <ordinal>5</ordinal>
+              <family>security_risk_data</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Owner</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Owner]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Owner</remote-alias>
+              <ordinal>6</ordinal>
+              <family>security_risk_data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>50</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Days Overdue</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Days Overdue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Days Overdue</remote-alias>
+              <ordinal>7</ordinal>
+              <family>security_risk_data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Escalation Required?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Escalation Required?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Escalation Required?</remote-alias>
+              <ordinal>8</ordinal>
+              <family>security_risk_data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[security!risk!data_86B026AF40D84629BD96145CA1B0AAA5]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Status:nk]' type='palette'>
+            <map to='#0000ff'>
+              <bucket>&quot;Open&quot;</bucket>
+            </map>
+            <map to='#00ff00'>
+              <bucket>&quot;Closed&quot;</bucket>
+            </map>
+            <map to='#ff0000'>
+              <bucket>&quot;Overdue&quot;</bucket>
+            </map>
+            <map to='#ffff00'>
+              <bucket>&quot;In Progress&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Risk Level:nk]' type='palette'>
+            <map to='#00ff00'>
+              <bucket>&quot;Low&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;High&quot;</bucket>
+            </map>
+            <map to='#ff0000'>
+              <bucket>&quot;Critical&quot;</bucket>
+            </map>
+            <map to='#ffff00'>
+              <bucket>&quot;Medium&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='security_risk_data' id='security!risk!data_86B026AF40D84629BD96145CA1B0AAA5'>
+            <properties context=''>
+              <relation connection='excel-direct.0cljmf51kkkup5158fu9v14c1zyf' name='security_risk_data' table='[security_risk_data$]' type='table'>
+                <columns gridOrigin='A1:I51:no:A1:I51:1' header='yes' lost='0' outcome='1' processed='87'>
+                  <column datatype='string' name='Finding ID' ordinal='0' />
+                  <column datatype='string' name='Security Risk' ordinal='1' />
+                  <column datatype='string' name='Risk Level' ordinal='2' />
+                  <column datatype='string' name='Department' ordinal='3' />
+                  <column datatype='string' name='Status' ordinal='4' />
+                  <column datatype='date' name='Due Date' ordinal='5' />
+                  <column datatype='string' name='Owner' ordinal='6' />
+                  <column datatype='integer' name='Days Overdue' ordinal='7' />
+                  <column datatype='string' name='Escalation Required?' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Compliance Status'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='security_risk_data (security_risk_data1)' name='federated.0kniauz1intu4n18nkkq81b7mg3f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kniauz1intu4n18nkkq81b7mg3f'>
+            <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[Finding ID]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Status]' role='dimension' type='nominal' />
+            <column-instance column='[Finding ID]' derivation='Count' name='[cnt:Finding ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Status]' derivation='None' name='[none:Status:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0kniauz1intu4n18nkkq81b7mg3f].[none:Status:nk]' />
+              <wedge-size column='[federated.0kniauz1intu4n18nkkq81b7mg3f].[cnt:Finding ID:qk]' />
+              <size column='[federated.0kniauz1intu4n18nkkq81b7mg3f].[cnt:Finding ID:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EF4D84BE-65D2-4B96-BBD4-5836E4F1F857}' />
+    </worksheet>
+    <worksheet name='Overdue Risk Heatmap'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='security_risk_data (security_risk_data1)' name='federated.0kniauz1intu4n18nkkq81b7mg3f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kniauz1intu4n18nkkq81b7mg3f'>
+            <column datatype='integer' name='[Days Overdue]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Department]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Risk Level]' role='dimension' type='nominal' />
+            <column-instance column='[Department]' derivation='None' name='[none:Department:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Risk Level]' derivation='None' name='[none:Risk Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Days Overdue]' derivation='Sum' name='[sum:Days Overdue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0kniauz1intu4n18nkkq81b7mg3f].[none:Risk Level:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Critical&quot;</bucket>
+              <bucket>&quot;High&quot;</bucket>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;Low&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='cell-w' value='20' />
+            <format attr='cell-h' value='20' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+            <format attr='width' field='[federated.0kniauz1intu4n18nkkq81b7mg3f].[none:Department:nk]' value='96' />
+            <format attr='height' field='[federated.0kniauz1intu4n18nkkq81b7mg3f].[none:Risk Level:nk]' value='48' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0kniauz1intu4n18nkkq81b7mg3f].[sum:Days Overdue:qk]' max='30' min='0' symmetric='false' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#00ff00</color>
+                <color>#76ec76</color>
+                <color>#d9d9d9</color>
+                <color>#ec7676</color>
+                <color>#ff0000</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0kniauz1intu4n18nkkq81b7mg3f].[sum:Days Overdue:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.7999999523162842' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0kniauz1intu4n18nkkq81b7mg3f].[none:Risk Level:nk]</rows>
+        <cols>[federated.0kniauz1intu4n18nkkq81b7mg3f].[none:Department:nk]</cols>
+      </table>
+      <simple-id uuid='{AE58A20A-DC23-4442-B800-1E3A107DEF82}' />
+    </worksheet>
+    <worksheet name='Risk Level Distribution'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='security_risk_data (security_risk_data1)' name='federated.0kniauz1intu4n18nkkq81b7mg3f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kniauz1intu4n18nkkq81b7mg3f'>
+            <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[Finding ID]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Risk Level]' role='dimension' type='nominal' />
+            <column-instance column='[Finding ID]' derivation='CountD' name='[ctd:Finding ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Risk Level]' derivation='None' name='[none:Risk Level:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0kniauz1intu4n18nkkq81b7mg3f].[none:Risk Level:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Critical&quot;</bucket>
+              <bucket>&quot;High&quot;</bucket>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;Low&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0kniauz1intu4n18nkkq81b7mg3f].[none:Risk Level:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0kniauz1intu4n18nkkq81b7mg3f].[ctd:Finding ID:qk]</rows>
+        <cols>[federated.0kniauz1intu4n18nkkq81b7mg3f].[none:Risk Level:nk]</cols>
+      </table>
+      <simple-id uuid='{081B3ED5-59DE-4590-9D46-DB217E834B97}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Compliance Status'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0kniauz1intu4n18nkkq81b7mg3f].[none:Status:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0kniauz1intu4n18nkkq81b7mg3f].[cnt:Finding ID:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0kniauz1intu4n18nkkq81b7mg3f].[none:Status:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F0E9DEAB-14E6-4227-8BCB-4666201172B1}' />
+    </window>
+    <window class='worksheet' name='Risk Level Distribution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0kniauz1intu4n18nkkq81b7mg3f].[none:Risk Level:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0kniauz1intu4n18nkkq81b7mg3f].[none:Risk Level:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{78601DCB-59E0-49DF-868D-99476C5D7D79}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Overdue Risk Heatmap'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0kniauz1intu4n18nkkq81b7mg3f].[sum:Days Overdue:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0kniauz1intu4n18nkkq81b7mg3f].[none:Department:nk]</field>
+            <field>[federated.0kniauz1intu4n18nkkq81b7mg3f].[sum:Days Overdue:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B7ECE718-BB35-4F0E-8259-5762690CD33D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='164' name='Compliance Status' width='164'>
+      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
+      RU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Overdue Risk Heatmap' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Risk Level Distribution' width='192'>
+      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
+      q+yqOQAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
