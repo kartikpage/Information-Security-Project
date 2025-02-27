@@ -1,0 +1,51 @@
+Finding ID,Security Risk,Risk Level,Department,Status,Due Date,Owner,Days Overdue,Escalation Required?
+F001,Open Ports,Low,HR,Closed,06-02-2025,User 1,N/A,NO
+F002,Unpatched Software,High,Operations,In Progress,26-04-2025,User 2,0,NO
+F003,Weak Passwords,Low,IT,Open,23-03-2025,User 3,0,NO
+F004,Phishing Emails,Low,Finance,Open,19-03-2025,User 4,0,NO
+F005,Phishing Emails,Critical,Finance,Overdue,24-04-2025,User 5,0,YES
+F006,Unencrypted Data,High,HR,Open,17-02-2025,User 6,10,YES
+F007,Unencrypted Data,High,Finance,Closed,22-04-2025,User 7,N/A,NO
+F008,Unpatched Software,Critical,Finance,In Progress,30-03-2025,User 8,0,NO
+F009,Phishing Emails,Critical,HR,Overdue,17-03-2025,User 9,0,YES
+F010,Open Ports,Low,Finance,In Progress,05-02-2025,User 10,22,NO
+F011,Phishing Emails,Low,Finance,Overdue,11-03-2025,User 11,0,NO
+F012,Weak Passwords,Medium,HR,Closed,13-02-2025,User 12,N/A,NO
+F013,Open Ports,Critical,Operations,Open,22-03-2025,User 13,0,YES
+F014,Open Ports,Medium,HR,Open,21-03-2025,User 14,0,NO
+F015,Unpatched Software,Critical,Operations,Overdue,05-03-2025,User 15,0,YES
+F016,Unencrypted Data,Critical,HR,In Progress,23-03-2025,User 16,0,NO
+F017,Phishing Emails,Medium,Finance,Closed,18-04-2025,User 17,N/A,NO
+F018,Unpatched Software,Critical,HR,Open,04-02-2025,User 18,23,YES
+F019,Open Ports,Medium,Operations,Overdue,15-02-2025,User 19,12,NO
+F020,Unpatched Software,High,Operations,Open,10-04-2025,User 20,0,NO
+F021,Unencrypted Data,High,Operations,Closed,09-02-2025,User 21,N/A,NO
+F022,Open Ports,Low,Operations,Closed,20-02-2025,User 22,N/A,NO
+F023,Open Ports,Medium,Finance,Closed,17-04-2025,User 23,N/A,NO
+F024,Open Ports,Low,Operations,Overdue,25-04-2025,User 24,0,NO
+F025,Unpatched Software,Low,Finance,Closed,26-04-2025,User 25,N/A,NO
+F026,Phishing Emails,Critical,HR,Overdue,15-04-2025,User 26,0,YES
+F027,Open Ports,Medium,HR,Open,06-04-2025,User 27,0,NO
+F028,Unencrypted Data,Medium,HR,In Progress,13-03-2025,User 28,0,NO
+F029,Weak Passwords,Medium,Operations,Open,21-03-2025,User 29,0,NO
+F030,Phishing Emails,High,HR,In Progress,16-02-2025,User 30,11,NO
+F031,Unencrypted Data,Medium,HR,Closed,25-04-2025,User 31,N/A,NO
+F032,Open Ports,Critical,Finance,Open,23-03-2025,User 32,0,YES
+F033,Phishing Emails,Low,Finance,Overdue,05-03-2025,User 33,0,NO
+F034,Unencrypted Data,Critical,HR,In Progress,22-03-2025,User 34,0,NO
+F035,Unencrypted Data,Critical,Operations,Closed,24-04-2025,User 35,N/A,NO
+F036,Phishing Emails,Medium,IT,Open,28-01-2025,User 36,30,YES
+F037,Weak Passwords,Medium,IT,Overdue,29-01-2025,User 37,29,YES
+F038,Unencrypted Data,Medium,Finance,Open,05-04-2025,User 38,0,NO
+F039,Weak Passwords,Critical,Finance,Closed,19-04-2025,User 39,N/A,NO
+F040,Unencrypted Data,Critical,Finance,Overdue,22-04-2025,User 40,0,YES
+F041,Unencrypted Data,Medium,HR,In Progress,27-03-2025,User 41,0,NO
+F042,Phishing Emails,Low,HR,Closed,15-04-2025,User 42,N/A,NO
+F043,Unencrypted Data,Medium,Finance,In Progress,15-02-2025,User 43,12,NO
+F044,Weak Passwords,High,Operations,Open,24-02-2025,User 44,3,NO
+F045,Weak Passwords,High,Finance,Open,11-04-2025,User 45,0,NO
+F046,Unencrypted Data,Medium,IT,Overdue,18-04-2025,User 46,0,NO
+F047,Unpatched Software,Medium,IT,Closed,18-02-2025,User 47,N/A,NO
+F048,Phishing Emails,Critical,Operations,Open,06-03-2025,User 48,0,YES
+F049,Phishing Emails,Medium,Operations,Overdue,26-03-2025,User 49,0,NO
+F050,Phishing Emails,High,IT,Open,02-02-2025,User 50,25,YES
